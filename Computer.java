@@ -1,3 +1,5 @@
+
+
 public class Computer {
     
     /*
@@ -67,6 +69,10 @@ public class Computer {
     public static void main(String[] args) {
         Computer myComputer = new Computer("2019 MacBook Pro", "Intel", 256, 16, "High Sierra", 2019, 1000);
         System.out.println(myComputer);
+
+        // Olivia's tests
+        
+        System.out.println(myComputer.getYear());
     }
 
 }
